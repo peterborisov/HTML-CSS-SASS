@@ -1,0 +1,57 @@
+body{
+    background: black;
+}
+#wrapper{
+    width: 550px;
+    height: 400px;
+    background: #fff;
+
+}
+#wrapper>figure{
+    vertical-align:top;
+    margin: 1px 5px;
+    padding: 0px 0px;
+    width: 145px;
+    display: inline-block;
+}
+#wrapper>figure>img{
+    width: 145px;
+    height: 145px;
+    margin: 0px 0px;
+    padding: 0px 0px;
+    outline: 1px solid #E5E8EC;
+}
+#wrapper>figure>figcaption>p{
+    margin: 10px 0px;
+    padding: 0px 0px;
+}
+#wrapper>figure>figcaption>p:nth-of-type(2){
+  font-family: Helvetica;
+    font-size: 10px;
+}
+#wrapper>figure>figcaption>p:nth-of-type(3){
+    font-family: Helvetica;
+    font-size: 10px;
+    color: red;
+}
+#wrapper>figure>figcaption>p>a{
+  font-family: Helvetica;
+    font-size: 11px;
+    text-decoration: none;
+    color: black;
+}
+#wrapper>figure>button{
+    width: 80%;
+    height: 21px;
+    text-align: center;
+    margin: 18px 0px;
+    padding: 0px 0px;
+    font-size: 10px;
+    font-family: Tahoma;
+}
+#wrapper>figure:nth-of-type(1)>button{
+     margin: 0px 0px;
+ }
+#wrapper>figure:nth-of-type(3)>button{
+    margin: 7px 0px;
+}

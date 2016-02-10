@@ -1,0 +1,217 @@
+@font-face {
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Nunito-Regular'), url(http://fonts.gstatic.com/s/nunito/v7/cSNs3NwpEgPVRQzvkh3NeQ.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}
+
+body {
+    background: black;
+    margin: 0pc auto;
+}
+
+#wrapper {
+    padding: 0px 0px;
+    margin: 0px 0px;
+    width: 1020px;
+    height: 860px;
+    background: #fff;
+}
+
+/*Header*/
+#wrapper > header {
+    width: 100%;
+    height: 129px;
+    background: #FBBE61;
+}
+
+#wrapper > header > h1 {
+    font-weight: 700;
+    font-size: 42px;
+    font-family: Nunito;
+    padding-top: 10px;
+    padding-left: 40px;
+    color: #FCFFFC;
+    margin: 0px 0px;
+}
+
+#wrapper > header > nav {
+    width: 100%;
+    height: 49px;
+    background: #40312A;
+    margin-top: 15px;
+    margin-bottom: 0px;
+}
+
+#wrapper > header > nav > ul {
+    margin: 13px 0px;
+    float: left;
+    padding-left: 40px;
+    padding-top: 2px;
+}
+
+#wrapper > header > nav > ul > li {
+    font-family: Nunito;
+    list-style: none;
+    display: inline-block;
+    font-weight: 100;
+    font-size: 16px;
+    padding-right: 10px;
+    color: #DDDED0;
+}
+
+#wrapper > header > nav > p {
+    float: right;
+    padding: 14px 0px;
+    margin: 0px 0px;
+    font-weight: 100;
+    font-size: 16px;
+    color: #DDDED0;
+    text-align: center;
+    font-family: Nunito;
+}
+
+#wrapper > header > nav > p > input {
+    margin: -1px 10px;
+    padding: 0px 0px;
+    border: none;
+    border-radius: 3px;
+    background: #2C8897;
+    height: 20px;
+}
+
+#wrapper > header > nav > button {
+    background: url("search-icon.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    border: none;
+    width: 17px;
+    height: 17px;
+    margin-top: 15px;
+    margin-right: 20px;
+    padding: 0px 0px;
+    float: right;
+}
+
+/*Main*/
+#wrapper > main {
+    width: 100%;
+    padding: 0px 0px;
+    margin: 0px 0px;
+    height: 661px;
+}
+
+#wrapper > main > section {
+    margin: 0px 0px;
+    padding: 0px 0px;
+    width: 640px;
+    height: 100%;
+    background: #F7EEDF;
+    float: left;
+}
+
+#wrapper > main > section > div {
+    width: 550px;
+    margin-left: 40px;
+    margin-top:0px;
+    padding-top: 0px;
+}
+
+#wrapper > main > section > h1 {
+    width: 180px;
+    height: 25px;
+    margin: 0px 0px 0px 40px;
+    padding-top: 30px;
+    color: #2C8897;
+    font-family: Cambria;
+    font-size: 22px;
+}
+
+#wrapper>main>section>div>h4{
+    padding: 0px 0px;
+    height: 25px;
+    font-family: Nunito;
+    font-size: 22px;
+    margin-top: 25px;
+    margin-bottom: 0px;
+}
+#wrapper>main>section>div>dfn{
+    color: #CF9D47;
+    font-family: Verdana;
+    font-size: 13px;
+    margin-bottom: 5px;
+}
+#wrapper>main>section>div>img {
+    margin: 15px 0px;
+    width: 540px;
+}
+#wrapper>main>section>div>p {
+    width: 525px;
+    margin: 0px 0px;
+    font-family: Verdana;
+    font-size: 13px;
+}
+#wrapper>main>section>div>p>a {
+    text-decoration: none;
+    color: #5B9EAE;
+}
+
+/*Aside*/
+#wrapper>main>aside {
+    background: #EDDEC7;
+    width: 380px;
+    height:inherit;
+    float: left;
+}
+#wrapper>main>aside>ul{
+    padding-top: 40px;
+    margin: 0px auto;
+}
+#wrapper>main>aside>ul>li {
+    font-family: Verdana;
+    font-size: 13px;
+    border: 1px solid black;
+    background: #2D8A9B;
+    list-style: none;
+    width: 90%;
+    height: 56px;
+}
+#wrapper>main>aside>ul>li>a {
+    text-decoration: none;
+    color: #F2E4D5;
+  margin-top: 30px;
+   margin-left: 30px;
+}
+
+#wrapper>main>aside>div{
+    width: 90%;
+    margin: 0px auto;
+    padding-left: 30px;
+}
+#wrapper>main>aside>div>h1{
+    color: #2C8897;
+    font-family: Cambria;
+    font-size: 22px;
+    margin: 20px 0px 10px 0px;
+}
+#wrapper>main>aside>div>pre{
+    font-family: Verdana;
+    font-size: 13px;
+}
+
+
+/*Footer*/
+#wrapper>footer{
+    background: #2C8897;
+    width: 100%;
+    height: 70px;
+    clear: both;
+}
+#wrapper>footer>p{
+  color: #fff;
+    font-family: Cambria;
+    font-size: 13px;
+    margin: 0px 0px;
+    padding: 25px 40px;
+}

@@ -1,0 +1,180 @@
+@font-face {
+    font-family: One;
+    src: url("http://fonts.googleapis.com/css?family=Patua+One")
+}
+body{
+    background: #fff;
+    width: auto;
+    height: 1000px;
+}
+#wrapper{
+    padding: 0px auto;
+    margin: 0px auto;
+    width: 940px;
+    height: 900px;
+    background: #fff;
+}
+#wrapper>header{
+    padding: 0px auto;
+    margin: 0px auto;
+    width: 564px;
+    height: 175px;
+}
+#wrapper>header>div{
+margin: 0px 125px;
+padding-top: 1px;
+}
+#wrapper>header>div>h1{
+   font-family: One;
+    font-size: 45px;
+  margin-bottom: 0px;
+}
+#wrapper>header>div>img{
+width: 45px;
+    height: 45px;
+    padding-top: 30px;
+}
+#wrapper>header>p{
+    margin-top: 2px;
+    margin: 0px 200px;
+    width: inherit;
+    font-size: 14px;
+}
+#wrapper>header>nav{
+    width: inherit;
+    text-align: center;
+    border-top: 1px dotted deepskyblue;
+    border-bottom: 1px dotted deepskyblue;
+    padding: 0px 0px;
+    margin: 20px 0px;
+}
+#wrapper>header>nav>ul{
+    margin: 5px 0px;
+    padding: 0px 0px;
+}
+#wrapper>header>nav>ul>li{
+    height: 15px;
+    color: #9B9DB3;
+    display: inline-block;
+  list-style: none;
+    padding: 0px 10px;
+    margin: 3px 3px;
+    font-size: 12px;
+    font-family: Georgia;
+}
+#wrapper>header>nav>ul>li:hover{
+    cursor: pointer;
+    background: #EEEEEE;
+    color: #767585;
+}
+/*Main*/
+main{
+    margin: 0px 0px;
+    padding: 0px 0px
+}
+#wrapper>main>div{
+    display: inline-block;
+    margin: -4px 0px;
+    padding: 0px 0px;
+    width:940px ;
+}
+#wrapper>main>div>article{
+    width:590px;
+    height: 110px;
+    padding: 0px 0px;
+    margin: 25px 70px;
+  border-top: 1px dotted deepskyblue;
+    border-bottom: 1px dotted deepskyblue;
+    text-align: center;
+    font-family: Georgia;
+    font-size: 14px;
+}
+#wrapper>main>div>article>h3{
+    font-size: 14px;
+}
+#wrapper>main>div>aside{
+    width: 200px;
+    height: 150px;
+    float: right;
+    border:1px dotted deepskyblue;
+    margin-top: 10px;
+    background: #F9F9F9;
+}
+#wrapper>main>div>aside>ul>li{
+    list-style: none;
+    font-family: Georgia;
+    font-size: 12px;
+margin: 0px 0px;
+    padding: 2px 0px;
+}
+#wrapper>main>div>aside>ul{
+    margin: 5px 15px;
+    padding: 0px 0px;
+}
+#wrapper>main>div>aside>p{
+    display: inline-block;
+    margin-top: 20px;
+}
+#wrapper>main>div>aside>p:last-of-type{
+    margin: 0px 15px;
+}
+#wrapper>main>div>aside>p>input{
+  width: 105px;
+    margin-left: 15px;
+    padding: 0px 0px;
+}
+#wrapper>main>div>aside>p>button{
+    width: 60px;
+    margin-left: 5px;
+    padding: 0px 0px;
+    font-family: Arial;
+}
+
+
+
+#wrapper>main>article>aside{
+    width: 200px;
+    height: 122px;
+    float: right;
+    border:1px dotted deepskyblue;
+    margin-top: 0px;
+    background: #F9F9F9;
+}
+#wrapper>main>article>aside>p{
+    margin-top: 20px;
+    margin-bottom: 0px;
+    padding: 0px 15px;
+}
+#wrapper>main>article>aside>ul>li{
+    list-style: none;
+    font-family: Georgia;
+    font-size: 12px;
+    margin: 0px 0px;
+    padding: 2px 0px;
+}
+#wrapper>main>article>aside>ul{
+    margin: 5px 15px;
+    padding: 0px 0px;
+}
+#wrapper>main>article>h2{
+    font-size: 34px;
+}
+#wrapper>main>article>p{
+    font-size: 17px;
+    width: 75%;
+    height: 100px;
+}
+
+footer{
+    background: #EEEEEE;
+    width: 100%;
+    height: 30px;
+    text-align: center;
+    padding: 10px 0px;
+}
+
+body>footer>p{
+    font-family: Georgia;
+    padding: 0px 0px;
+    margin: 5px 0px;
+}

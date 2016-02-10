@@ -1,0 +1,80 @@
+body {
+    background: black;
+}
+
+#wrapper {
+    width: 521px;
+    height: 295px;
+    padding: 5px 0px;
+    background: #fff;
+    font-family: Helvetica, Tahoma, sans-serif;
+}
+
+#wrapper > div {
+    width: 160px;
+    height: 290px;
+    display: inline-block;
+    vertical-align: top;
+    padding: 0px 5px;
+}
+
+#wrapper article {
+    width: 160px;
+    height: 180px;
+    border: 1px solid black;
+}
+
+#wrapper article:hover{
+    background: #820000;
+    cursor: pointer;
+}
+#wrapper div a{
+    color: #261A64;
+    font-weight: 600;
+}
+#wrapper div a:hover{
+    color: #862429;
+}
+img {
+    width: 80%;
+    height: 100%;
+    padding-left: 10%;
+}
+
+p {
+    margin-top: 5px;
+    margin-bottom: 15px;
+    font-size: 16px;
+}
+
+#wrapper > div > div {
+    padding-top: 17px;
+    clear: both;
+    font-size: 12px;
+}
+#wrapper > div:first-of-type>div {
+    padding-top: 0px;
+}
+
+#wrapper > div > div > button {
+    width: 26px;
+    height: 23px;
+    float: left;
+}
+#wrapper > div > div > button:hover{
+    background: #FF0000;
+    border-radius:5px;
+  border: 1px solid black;
+}
+
+#wrapper > div > div > p {
+    float: left;
+    padding-left: 5px;
+    font-size: 12px;
+}
+
+#wrapper > div > div > button > img {
+    width: 80%;
+    height: 80%;
+    float: left;
+}

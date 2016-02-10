@@ -1,0 +1,67 @@
+body{
+    background:url("form-background.png");
+}
+
+#wrapper{
+    width: 530px;
+    height: 750px;
+    margin: 0px auto;
+    font-family: Yanone Kaffeesatz Regular , Aril , sans-serif;
+}
+#wrapper>h1{
+    text-align: center;
+    font-size: 46px;
+    margin: 0px 0px;
+    font-family:Aril;
+    color: #7C7873;
+}
+form{
+    width: 400px;
+    height: 500px;
+}
+form>h2{
+    font-size: 26px;
+    font-family: sans-serif;
+    margin: 0px 0px;
+    font-weight: 100;
+    margin-top: 10px;
+}
+form>h3{
+    font-size: 16px;
+    font-family: sans-serif;
+    margin: 0px 0px;
+    font-weight: 100;
+    margin: 5px 0px;
+}
+form>textarea{
+    width: 95%;
+    height: 100px;
+    padding: 10px 10px;
+    font-size: 14px;
+    color: black;
+    background: #F6F3ED;
+    border: 1px solid #EAE4DA;
+    border-radius: 5px;
+
+}
+form>input{
+    width: 96%;
+    height: 40px;
+    background: #F0EBE2;
+    border: 1px solid #EAE4DA;
+    padding-left: 15px;
+    font-size: 14px;
+    border-radius: 5px;
+}
+form>button{
+    width: 180px;
+    height: 40px;
+    margin: 15px 115px;
+    background: #BBC9CF;
+    color: #435C70;
+    border: none;
+    border-radius: 5px;
+    font-size: 26px;
+    font-family: Aril;
+
+}

@@ -1,0 +1,111 @@
+@mixin div-default{
+  width:200px;
+  height:150px;
+  border:2px solid tomato;
+  margin:2px;
+  float:left;
+  display:block;
+}
+@mixin div-hover{
+  -webkit-animation: cssAnimation 3s 1 ease;
+}
+@-webkit-keyframes cssAnimation {
+  20%{
+    // -webkit-transform: rotate(360deg) scale(0.655) skew(0deg) translate(0px);
+    -webkit-transform: scale(2) rotate(360deg) skew(0deg) translate(0px);
+  }
+
+  100%{
+    -webkit-transform: rotate(4deg) scale(1) skew(0deg) translate(10px);
+    -webkit-transform: rotate(360deg) scale(1) skew(0deg) translate(0px);
+
+  }
+}
+#wrapper{
+  width:50%;
+  margin:0 auto;
+  div#one{
+    @include div-default;
+    background-image:url(./img/1.jpg);
+    &:hover{
+      @include div-hover;
+    }
+  }
+  div#two{
+    @include div-default;
+    background-image:url(./img/2.jpg);
+    &:hover{
+      @include div-hover;
+    }
+  }
+  div#three{
+    @include div-default;
+    background-image:url(./img/3.jpg);
+    &:hover{
+      @include div-hover;
+    }
+  }
+  div#four{
+    @include div-default;
+    background-image:url(./img/4.jpg);
+    &:hover{
+      @include div-hover;
+    }
+  }
+  div#five{
+    @include div-default;
+    background-image:url(./img/5.jpg);
+    &:hover{
+      @include div-hover;
+    }
+  }
+  div#six{
+    @include div-default;
+    background-image:url(./img/6.jpg);
+    &:hover{
+      @include div-hover;
+    }
+  }
+  div#seven{
+    @include div-default;
+    background-image:url(./img/7.jpg);
+    &:hover{
+      @include div-hover;
+    }
+  }
+  div#eight{
+    @include div-default;
+    background-image:url(./img/8.jpg);
+    &:hover{
+      @include div-hover;
+    }
+  }
+  div#nine{
+    @include div-default;
+    background-image:url(./img/9.jpg);
+    &:hover{
+      @include div-hover;
+    }
+  }
+  div#ten{
+    @include div-default;
+    background-image:url(./img/10.jpg);
+    &:hover{
+      @include div-hover;
+    }
+  }
+  div#eleven{
+    @include div-default;
+    background-image:url(./img/11.jpg);
+    &:hover{
+      @include div-hover;
+    }
+  }
+  div#twelve{
+    @include div-default;
+    background-image:url(./img/12.jpg);
+    &:hover{
+      @include div-hover;
+    }
+  }
+}

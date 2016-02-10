@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Room Reservation</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+
+<div id="wrapper">
+    <header>
+        <h1>Room Reservation</h1>
+    </header>
+    <section id="top-section">
+        <div>
+            <h2>Basic Information</h2>
+
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent at nibh varius odio sollicitudin
+                blandit nec eu elit.
+                Suspendisse ac risus nunc, quis elementum lorem. Pellentesque vehicula egestas eros nec commodo.</p>
+        </div>
+        <aside>
+            <p>Search</p>
+            <input type="button"/>
+        </aside>
+    </section>
+    <section id="bottom-section">
+        <form id="personal-details">
+            <h2>Personal Details</h2>
+            <input type="text" placeholder="First name"/>
+            <input type="text" placeholder="Last name"/>
+            <input type="email" placeholder="Enter email"/>
+        </form>
+        <form id="request">
+            <h2>Request a reservation</h2>
+
+          <span class="room">
+    <label for=room>Select a room:</label>
+             <select id="room">
+                 <option>Room 1</option>
+                 <option>Room 2</option>
+                 <option>Room 3</option>
+             </select>
+</span>
+            <span class="number-of-rooms">
+    <label for=number-of-rooms>Number of rooms:</label>
+    <input type=number id="number-of-rooms">
+</span>
+            <span class="check">
+    <label for=check-in>Check-in:</label>
+    <input type=date id=check-in>
+</span>
+            <span class="check">
+    <label for=check-out>Check-out:</label>
+    <input type=date id=check-out>
+</span>
+        </form>
+    </section>
+
+    <footer>
+        <button>Book Now</button>
+    </footer>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,131 @@
+@-webkit-keyframes cssAnimation {
+  20% {
+    -webkit-transform: scale(2) rotate(360deg) skew(0deg) translate(0px); }
+  100% {
+    -webkit-transform: rotate(4deg) scale(1) skew(0deg) translate(10px);
+    -webkit-transform: rotate(360deg) scale(1) skew(0deg) translate(0px); } }
+#wrapper {
+  width: 50%;
+  margin: 0 auto; }
+  #wrapper div#one {
+    width: 200px;
+    height: 150px;
+    border: 2px solid tomato;
+    margin: 2px;
+    float: left;
+    display: block;
+    background-image: url(./img/1.jpg); }
+    #wrapper div#one:hover {
+      -webkit-animation: cssAnimation 3s 1 ease; }
+  #wrapper div#two {
+    width: 200px;
+    height: 150px;
+    border: 2px solid tomato;
+    margin: 2px;
+    float: left;
+    display: block;
+    background-image: url(./img/2.jpg); }
+    #wrapper div#two:hover {
+      -webkit-animation: cssAnimation 3s 1 ease; }
+  #wrapper div#three {
+    width: 200px;
+    height: 150px;
+    border: 2px solid tomato;
+    margin: 2px;
+    float: left;
+    display: block;
+    background-image: url(./img/3.jpg); }
+    #wrapper div#three:hover {
+      -webkit-animation: cssAnimation 3s 1 ease; }
+  #wrapper div#four {
+    width: 200px;
+    height: 150px;
+    border: 2px solid tomato;
+    margin: 2px;
+    float: left;
+    display: block;
+    background-image: url(./img/4.jpg); }
+    #wrapper div#four:hover {
+      -webkit-animation: cssAnimation 3s 1 ease; }
+  #wrapper div#five {
+    width: 200px;
+    height: 150px;
+    border: 2px solid tomato;
+    margin: 2px;
+    float: left;
+    display: block;
+    background-image: url(./img/5.jpg); }
+    #wrapper div#five:hover {
+      -webkit-animation: cssAnimation 3s 1 ease; }
+  #wrapper div#six {
+    width: 200px;
+    height: 150px;
+    border: 2px solid tomato;
+    margin: 2px;
+    float: left;
+    display: block;
+    background-image: url(./img/6.jpg); }
+    #wrapper div#six:hover {
+      -webkit-animation: cssAnimation 3s 1 ease; }
+  #wrapper div#seven {
+    width: 200px;
+    height: 150px;
+    border: 2px solid tomato;
+    margin: 2px;
+    float: left;
+    display: block;
+    background-image: url(./img/7.jpg); }
+    #wrapper div#seven:hover {
+      -webkit-animation: cssAnimation 3s 1 ease; }
+  #wrapper div#eight {
+    width: 200px;
+    height: 150px;
+    border: 2px solid tomato;
+    margin: 2px;
+    float: left;
+    display: block;
+    background-image: url(./img/8.jpg); }
+    #wrapper div#eight:hover {
+      -webkit-animation: cssAnimation 3s 1 ease; }
+  #wrapper div#nine {
+    width: 200px;
+    height: 150px;
+    border: 2px solid tomato;
+    margin: 2px;
+    float: left;
+    display: block;
+    background-image: url(./img/9.jpg); }
+    #wrapper div#nine:hover {
+      -webkit-animation: cssAnimation 3s 1 ease; }
+  #wrapper div#ten {
+    width: 200px;
+    height: 150px;
+    border: 2px solid tomato;
+    margin: 2px;
+    float: left;
+    display: block;
+    background-image: url(./img/10.jpg); }
+    #wrapper div#ten:hover {
+      -webkit-animation: cssAnimation 3s 1 ease; }
+  #wrapper div#eleven {
+    width: 200px;
+    height: 150px;
+    border: 2px solid tomato;
+    margin: 2px;
+    float: left;
+    display: block;
+    background-image: url(./img/11.jpg); }
+    #wrapper div#eleven:hover {
+      -webkit-animation: cssAnimation 3s 1 ease; }
+  #wrapper div#twelve {
+    width: 200px;
+    height: 150px;
+    border: 2px solid tomato;
+    margin: 2px;
+    float: left;
+    display: block;
+    background-image: url(./img/12.jpg); }
+    #wrapper div#twelve:hover {
+      -webkit-animation: cssAnimation 3s 1 ease; }
+
+/*# sourceMappingURL=style.css.map */

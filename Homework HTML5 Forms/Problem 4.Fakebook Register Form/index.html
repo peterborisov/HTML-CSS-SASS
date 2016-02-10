@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Fakebook Register Form</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+
+<div id="wrapper">
+    <header></header>
+    <main>
+        <h2>Registration</h2>
+
+        <h3>It is save and it will always be!</h3>
+        <section>
+            <fieldset class="left">
+                <legend>None-Important Information</legend>
+                <div>
+                    <input type="text" placeholder="First name">
+                    <input type="text" placeholder="Last name">
+                    <input type="text" placeholder="Your email">
+                    <input type="text" placeholder="Phone number">
+                    <input type="text" placeholder="Your Password">
+                    <input type="text" placeholder="Webside">
+                </div>
+                <span>
+                    <label for="datetime">Birthday</label>
+                    <input id="datetime" type="datetime">
+                </span>
+                <input type="radio" id="male">
+                <label for="male">Male</label>
+                <input type="radio" id="female">
+                <label for="female">Female</label>
+                <input type="radio" id="other">
+                <label for="other">Other</label>
+            </fieldset>
+
+            <fieldset class="right">
+                <legend>Important Information *required</legend>
+                <div>
+                    <input type="text" id="Country" placeholder="Country">
+                    <input type="text" id="Village" placeholder="Village">
+                    <input type="text" id="District" placeholder="District">
+                    <input type="text" id="Street" placeholder="Street">
+                    <input type="number" id="Nr" placeholder="Nr">
+                    <input type="number" id="Floor" placeholder="Floor">
+                    <input type="number" id="ap-nr" placeholder="Ap Nr">
+                </div>
+                <div>
+                    <p>Door Color</p>
+                    <input type="color" id="color">
+                    <input type="text" id="water-meter" placeholder="Water Meter Nr">
+                    <select id="choice">
+                        <option value="0" selected="selected">Aunt Panties' Size</option>
+                        <option value="1">Small</option>
+                        <option value="2">Medium</option>
+                        <option value="3">Large</option>
+                    </select>
+                </div>
+                  <span>
+                    <label for="textarea">More Personal Information</label>
+                      <textarea placeholder="Give Us More Information!!!" id="textarea"></textarea>
+                </span>
+            </fieldset>
+        </section>
+    </main>
+    <footer>
+        <button id="clear">Clear Form</button>
+        <button id="register">Register</button>
+    </footer>
+</div>
+
+</body>
+</html>

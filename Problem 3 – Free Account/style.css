@@ -1,0 +1,110 @@
+body{
+    background:#EEEEEE ;
+}
+#wrapper{
+    margin: 0px auto;
+    width: 800px;
+    height: 500px;
+    background: #fff;
+    border-radius: 20px;
+    font-family: Tahoma, Helvetica, sans-serif;
+}
+
+/*Header*/
+header{
+    width: 90%;
+    height: 120px;
+    margin: 0px auto;
+}
+header>h1,p{
+    text-align: center;
+    margin: 0px;
+    padding-top: 20px;
+}
+h1{
+    font-size: 26px;
+    font-weight: 100;
+}
+p{
+    font-size: 13px;
+    color: #7A7A78;
+}
+
+/*Main*/
+main{
+    width: 75%;
+    height: 400px;
+    margin: 0px auto;
+    border-top: 1px solid #D6D6D6;
+}
+h3{
+    margin: 20px 0px 5px 0px;
+    font-weight: 100;
+}
+form{
+    width:282px;
+    height: 300px;
+    display: inline-block;
+    vertical-align: top;
+}
+#new-account{
+    float:left;
+}
+#login{
+    float: right;
+}
+input{
+    width: 270px;
+    height: 35px;
+    margin-bottom: 15px;
+    padding-left: 10px;
+    border-radius: 5px;
+    border: 1px solid #D6D6D6;
+}
+input[type="text"],input[type="email"]{
+    background: #fff url("ok.png") no-repeat;
+    background-position: 250px center;
+}
+input[type="password"]{
+    background: #fff url("no.png") no-repeat;
+    background-position: 250px center;
+}
+div{
+    width: 250px;
+    height: 40px;
+}
+div>input{
+    display: inline;
+    float: left;
+    width: 15px;
+    height: 15px;
+    margin: 0px 0px;
+}
+div>p{
+    display: inline;
+    padding: 0px 0px;
+    font-size: 13px;
+    vertical-align: top;
+}
+button{
+    width: 160px;
+    height: 45px;
+    background:#F0F0F0;
+    border: 1px solid #D6D6D6;
+    border-radius: 5px;
+    font-size: 18px;
+    color: black;
+    font-family: Helvetica;
+    font-weight: bold;
+    margin-top: 10px;
+}
+#login>button{
+    width: 100px;
+    margin: 0px;
+}
+#login>div>p>a{
+   color: #ED727E;
+    font-size: 16px;
+    text-decoration: none;
+    font-weight: bold;
+}

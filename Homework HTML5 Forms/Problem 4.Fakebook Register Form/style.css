@@ -1,0 +1,197 @@
+body {
+    background: black;
+}
+
+#wrapper {
+    width: 843px;
+    height: 630px;
+    background: #3B5997;
+    margin: 0px auto;
+    font-family: Helvetica;
+}
+
+header {
+    width: 100%;
+    height: 130px;
+    background: url("logo.png") no-repeat;
+    background-size: cover;
+}
+
+h2 {
+    color: #fff;
+    font-size: 40px;
+    text-align: center;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+h3 {
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+    font-weight: 600;
+    margin: 0px;
+}
+
+/*Main*/
+main {
+    width: 95%;
+    height: 383px;
+    margin: 0px 20px;
+}
+
+section {
+    padding-top: 30px;
+    display: inline-block;
+}
+
+fieldset {
+    margin: 0px;
+}
+
+legend {
+    text-align: center;
+    color: #fff;
+    margin: 0px 0px;
+}
+
+/*Left form*/
+.left {
+    height: 255px;
+    width: 310px;
+    border: 1px solid #fff;
+    border-radius: 10px;
+    float: left;
+}
+
+.left > div {
+    margin: 0px auto;
+}
+
+.left > div > input {
+    height: 30px;
+    width: 145px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+fieldset > span {
+    display: inline-block;
+    width: 100%;
+}
+
+fieldset > span > label {
+    display: block;
+    color: #fff;
+    font-size: 14px;
+    font-weight: bold;
+    margin: 5px 0px;
+}
+
+fieldset > span > input {
+    height: 30px;
+    width: 75%;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+label {
+    color: #fff;
+    margin-top: 0px;
+}
+
+fieldset > input[type="radio"] {
+    padding: 0px 0px;
+    height: 12px;
+    width: 12px;
+}
+
+/*Right form*/
+.right {
+    height: 255px;
+    width: 403px;
+    border: 1px solid #fff;
+    border-radius: 10px;
+    float: right;
+    margin-left: 35px;
+}
+
+.right > div {
+    display: inline-block;
+    width: 100%;
+}
+
+input {
+    margin-right: 5px;
+    height: 30px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+#Country, #Village, #District, #Street {
+    width: 124px;
+}
+
+#Nr, #Floor, #ap-nr {
+    width: 65px;
+}
+
+#color, #water-meter, #size {
+    width: 122px;
+    vertical-align: top;
+}
+
+p {
+    margin: 0px 0px 5px 0px;
+    font-size: 14px;
+    color: #fff;
+    font-weight: bold;
+}
+
+select {
+    width: 122px;
+    height: 34px;
+    border-radius: 5px;
+    color: #808080;
+}
+
+textarea {
+    width: 97%;
+    height: 60px;
+    border-radius: 5px;
+}
+
+.right > span > label {
+    margin: 0px 0px;
+}
+
+/*Footer*/
+footer {
+    width: 95%;
+    margin: 0px 20px;
+    background: #3B5997;
+}
+
+footer > button {
+    height: 50px;
+    border-radius: 10px;
+    text-align: center;
+    display: inline-block;
+    vertical-align: top;
+}
+
+footer > #clear {
+    width: 336px;
+    margin: 20px 30px 0px 0px;
+    font-size: 16px;
+    color: #3B5997;
+    font-weight: bolder;
+}
+
+footer > #register {
+    width: 429px;
+    margin: 20px 0px 0px 0px;
+    font-size: 30px;
+    color: #3B5997;
+}

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Letter Form</title>
+    <link type="text/css" rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="wrapper">
+
+    <h1>Sent a message</h1>
+    <form  width=430px height=316px
+           style="position: relative;left:65px; top: 40px;z-index: 30;">
+        <h2>Hello,</h2>
+        <h3>YOUR MESSAGE</h3>
+        <textarea placeholder="Please send me a quote for selling your business"></textarea>
+        <h2>Best</h2>
+        <h3>NAME:</h3>
+        <input type="text" name="name" placeholder="Name" required/>
+        <h3>EMAIL:</h3>
+        <input type="email" placeholder="Email" required/>
+        <button>Send Message</button>
+    </form>
+
+    <div class="imageWrapper" style="position: relative; width:530px; height: 0px;">
+        <img src="envelope-top.png " width=530 height=316 style="position: relative;top: -262px; z-index: 1;"/>
+
+        <img src="letter-background.png" width=470 height=600
+             style="position: absolute;left:30px; top: -480px;z-index: 10;"/>
+
+        <img src="envelope-bottom.png " width=530px height=316px
+             style="position: absolute;left:0px; top: -80px;z-index: 20;"/>
+    </div>
+
+</div>
+</body>
+</html>

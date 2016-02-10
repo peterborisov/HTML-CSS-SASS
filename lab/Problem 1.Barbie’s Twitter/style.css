@@ -1,0 +1,343 @@
+body {
+    background: #C0DEED;
+}
+
+header, ul, li, input, button ,main,section,h1,p,h4,dfn{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+#wrapper {
+    width: 1200px;
+    height: 595px;
+    background: #C0DEED;
+    margin: 0px auto;
+    padding: 0px;
+    font-family: Arial, sans-serif;
+}
+#right{
+    width: 295px;
+    height: 100%;
+    display: inline-block;
+    float: right;
+}
+#left{
+    width: 295px;
+    height: 100%;
+    display: inline-block;
+    float: left;
+}
+
+aside>section>div{
+    padding: 10px 0px 0px 10px;
+    width: 100%;
+    height: 25px;
+}
+aside>section>div>h1{
+    float: left;
+    font-weight: 100;
+    color: #BEB5B3;
+    padding-right: 10px;
+}
+
+aside>section>div>a{
+    float: left;
+    text-decoration: none;
+    color: #9CDBFF;
+    padding-top: 4px;
+    font-size: 13px;
+    font-weight: lighter;
+    padding-right: 5px;
+}
+/*Header*/
+header {
+    width: 100%;
+    height: 50px;
+    background: #FFFFFF;
+}
+
+#tweeter {
+    margin: 0px 18%;
+    padding-top: 17px;
+}
+
+ul {
+    height: 100%;
+}
+
+li {
+    display: inline-block;
+    height: 100%;
+    padding: 18px 10px;
+    padding-left: 33px;
+    font-size: 14px;
+}
+
+li > a {
+    text-decoration: none;
+    color: #66757F;
+}
+
+/*Left navigation*/
+.left {
+    float: left;
+}
+
+#home {
+    background: url("./img/header-house.png") no-repeat;
+    background-size: 20px 20px;
+    background-position: 10px 16px;
+}
+
+#notifications {
+    background: url("./img/notifications.png") no-repeat;
+    background-size: 20px 20px;
+    background-position: 10px 16px;
+}
+
+#discover {
+    background: url("./img/discover.png") no-repeat;
+    background-size: 20px 20px;
+    background-position: 10px 16px;
+}
+
+#me {
+    background: url("./img/me.png") no-repeat;
+    background-size: 20px 20px;
+    background-position: 10px 16px;
+}
+
+#home:hover, #notifications:hover, #discover:hover, #me:hover {
+    border-bottom: 5px solid #0084B4;
+}
+
+/*Right navigation*/
+header > input {
+    padding-left: 10px;
+    margin: 10px 10px 0px 0px;
+    float: right;
+    width: 200px;
+    height: 30px;
+    border-radius: 20px;
+    background-color: #A3ACB2;
+}
+
+.right {
+    float: right;
+}
+
+.right > li {
+    padding-left: 10px;
+    padding-top: 15px;
+}
+
+/*Main*/
+main{
+    width: 100%;
+    height: 500px;
+    margin-top: 15px;
+}
+/*Top left section*/
+#top-left{
+    width: 290px;
+    height: 255px;
+    border-radius: 5px;
+    background: #E5F2F7;
+}
+#top-left>article{
+    width: 100%;
+    height: 77%;
+    background: #FFFFFF;
+    border-radius: 5px 5px 0px 0px;
+}
+#top-left>article>header{
+    height: 50%;
+    width: 100%;
+    background: #0084B4;
+    border-radius: 5px 5px 0px 0px;
+}
+#top-left>input{
+    height: 30px;
+    width: 90%;
+    margin: 15px 15px;
+    color: #B8A5A6;
+    padding-left: 15px;
+    border-radius: 5px;
+    border: 1px #CEE7F0;
+}
+#top-left>article>img{
+    z-index: 10;
+    margin:-30px 0px 0px 10px;
+    border-radius: 10px;
+    border: 5px solid #fff;
+}
+#top-left>article>span{
+    margin-top: 10px;
+    margin-right: 46%;
+    float: right;
+    vertical-align: top;
+    line-height: 16px;
+}
+#top-left>article>div>ul>li{
+    padding: 0px 0px;
+    margin-left: 15px;
+}
+#top-left>article>div>ul>li>h1{
+    font-size: 12px;
+    color: #BEB5B3;
+}
+#top-left>article>div>ul>li>p{
+    color: #108BB8;
+    font-size: 21px;
+}
+
+/*Bottom-left*/
+#bottom-left{
+    width: 290px;
+    height: 260px;
+    margin-top: 15px;
+    background: #fff;
+    border-radius: 5px;
+}
+#bottom-left>ul{
+    height: 80%;
+    clear: left;
+    margin:0px 0px 0px 10px;
+}
+#bottom-left>ul>li{
+    display: block;
+    padding: 0px 0px;
+    height: 15px;
+    margin: 5px 0px;
+}
+#bottom-left>ul>li>a{
+    text-decoration: none;
+    color: #9CDBFF;
+    padding-top: 10px;
+    font-size: 13px;
+    font-weight: lighter;
+}
+
+/*Top right section*/
+#top-right{
+    height: 300px;
+    width: 290px;
+    float: right;
+    vertical-align: top;
+    background: #fff;
+    border-radius: 5px;
+    z-index: 10;
+}
+#top-right>article{
+     width: 100%;
+     height: 65px;
+     float: left;
+ }
+#top-right>article:last-of-type{
+    height: 61px;
+    border-radius: 0px 0px 5px  5px;
+}
+#top-right>article>div{
+    padding-top: 20px;
+}
+#top-right>article>div>h4{
+    font-size: 13px;
+}
+#top-right>article>div>button{
+   width: 85px;
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+    background: #F7F9FB;
+    margin-top: 2px;
+
+}
+#top-right>article>div>button:before{
+  content: url("./img/follow.png");
+}
+#top-right>article>img{
+    float: left;
+    margin: 15px;
+}
+#footer{
+    text-align: center;
+    margin-top: 10px;
+    border: none;
+    width: 99%;
+    height: 40px;
+    background: #F5F8FA;
+    border-top: 1px solid #F7F9FB;
+}
+#footer>p>a{
+    text-decoration: none;
+    color: #9CDBFF;
+    font-size: 13px;
+    font-weight: lighter;
+    padding-right: 5px;
+}
+#footer>p>a:first-of-type:before{
+    content: url("./img/find-people.png");
+}
+#footer>p{
+    padding-top: 10px;
+}
+#footer>p>img{
+    padding-top: 13px;
+}
+/*Bottom right section*/
+#bottom-right{
+    width: 290px;
+    height: 105px;
+    float: right;
+    background: #fff;
+    border-radius: 5px;
+    margin-top: 15px;
+}
+#bottom-right>p{
+    color: #96B2D5;
+    font-size: 13px;
+    margin: 15px;
+    word-spacing: 10px;
+}
+
+/*Middle section*/
+#middle{
+    height: 84%;
+    width:49%;
+    float: right;
+    margin:0px 10px;
+    background: #fff;
+    border-radius: 10px;
+}
+#middle>header{
+    border-radius: 10px 10px 0px 0px;
+    border-bottom: 1px solid #BEB5B3;
+}
+#middle>header>h1{
+    font-weight: 100;
+    color: #BEB5B3;
+    padding:10px;
+}
+#middle>article{
+    width: 100%;
+    height: 21%;
+    border-bottom: 1px solid #BEB5B3;
+}
+#middle>article:last-of-type{
+    border: none;
+}
+#middle>article>img{
+    float: left;
+    margin: 15px;
+    width: 50px;
+    height: 50px;
+}
+#middle>article>div{
+    padding-top: 10px;
+}
+#middle>article>div>h4>dfn{
+    color: #BEB5B3;
+    font-size: 14px;
+    font-weight: 100;
+}

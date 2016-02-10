@@ -1,0 +1,102 @@
+@font-face {
+    src: url('Montserrat-Regular.ttf');
+    font-family: Montserrat;
+}
+
+body {
+    background: url("body-background.jpg");
+    width: 100%;
+    height: 100%;
+}
+
+#wrapper {
+    width: 465px;
+    height: 390px;
+    margin: 0px auto;
+}
+
+h1 {
+    color: #F7B65B;
+    text-align: center;
+    font-family: Montserrat;
+    font-weight: 100;
+    font-size: 36px;
+}
+
+form {
+    width: 100%;
+    height: 300px;
+    background: #EADECA;
+    border-radius: 5px;
+}
+
+input {
+    border: 1px solid #BEA783;
+    width: 88%;
+    height: 40px;
+    margin: 10px 10px 0px 10px;
+    border-radius: 5px;
+    font-size: 16px;
+    font-family: Montserrat;
+    font-weight: lighter;
+    padding-left: 35px;
+}
+input[type="email"]{
+    background: url("icon-email.png")#FFFBF4 no-repeat;
+    background-position: 5px 0px;
+    background-size:25px 40px;
+}
+input[type="password"]{
+    background: url("icon-password.png")#FFFBF4 no-repeat;
+    background-position: 5px 0px;
+    background-size:25px 40px;
+}
+input[type="text"]{
+    background: url("icon-name.png")#FFFBF4 no-repeat;
+    background-position: 5px 0px;
+    background-size:25px 40px;
+}
+h3 {
+    color: #68531D;
+    font-family: Montserrat;
+    font-size: 16px;
+    margin: 20px 0px 0px 10px;
+}
+
+button {
+    margin: 10px 10px;
+    width: 140px;
+    height: 40px;
+    font-size: 22px;
+    font-weight: 200;
+    font-family: Montserrat;
+    background: #05C1E3;
+    border-radius: 5px;
+    color: #154856;
+    float: left;
+    border: 1px solid #1691A8;
+}
+div{
+    display: inline-block;
+}
+div>div{
+    display: inline-block;
+    height: 40px;
+    width: 150px;
+    margin: 10px 10px;
+    text-align: center;
+}
+img{
+    border: 1px solid #BEA783;
+    border-radius: 5px;
+    height: 25px;
+    width: 25px;
+    float: left;
+    margin-top: 5px;
+    background: #FDF7ED;
+}
+p{
+    margin: 8px 0px;
+    padding-right: 20px;
+    float: right;
+}

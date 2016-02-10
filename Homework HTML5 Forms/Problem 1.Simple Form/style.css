@@ -1,0 +1,100 @@
+body{
+    background: black;
+}
+#wrapper{
+    width: 775px;
+    height: 450px;
+    margin: 0px auto;
+    background: #EEEEEE;
+    font-family: Helvetica;
+}
+h1{
+    color: #234465;
+    font-size: 26px;
+    padding: 15px 10px;
+    margin: 0px;
+}
+p{
+    padding: 0px 10px 15px 10px;
+    margin: 0px;
+}
+section{
+    margin-left: 10px;
+}
+form{
+    width: 360px;
+    height: 333px;
+    display: inline-block;
+    padding-left: 15px;
+    vertical-align: top;
+}
+
+h2{
+    font-size:20px;
+    text-transform: uppercase;
+}
+#left-form>h2>a{
+    color: #234465;
+    text-decoration: none;
+}
+input{
+    height: 40px;
+    width: 91%;
+    margin-bottom: 10px;
+    padding-left: 15px;
+    margin-bottom: 15px;
+}
+button{
+    height: 40px;
+    width: 200px;
+    background: #EEEEEE;
+    border: 3px solid #234465;
+    float: right;
+    margin-right: 15px;
+    color: #234465;
+    font-size: 20px;
+}
+
+
+#right-form{
+    background: #234465;
+}
+#right-form>h2,a{
+    color: #fff;
+    text-decoration: none;
+}
+#right-form>div{
+    float: left;
+    display: inline-block;
+    color: #fff;
+    width: 150px;
+    padding-top: 5px;
+}
+
+#right-form>div>p{
+    float: left;
+    display: inline-block;
+  font-size: 14px;
+    padding: 0px 5px;
+}
+#right-form>div>input[type="checkbox"]{
+    float: left;
+    height: 20px;
+    width: 20px;
+    margin: 0px 0px;
+}
+#right-form>button{
+    height: 40px;
+    width: 150px;
+    border: 3px solid #FF9C00;
+    background: #234465;
+    color: #fff;
+    font-size: 20px;
+    float: right;
+}
+#right-form>a{
+    clear: both;
+    float: right;
+    margin:10px 25px;
+    text-decoration: underline;
+}

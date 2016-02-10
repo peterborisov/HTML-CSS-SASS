@@ -1,0 +1,110 @@
+#wrapper {
+    width: 535px;
+    height: 410px;
+    background: #FFBFCD;
+    margin: 0px auto;
+    font-family: Helvetica;
+    font-style: italic;
+}
+
+header > h1 {
+    font-size: 40px;
+    text-align: center;
+    margin: 0px;
+    text-transform: uppercase;
+    padding-top: 15px;
+    font-weight: bolder;
+}
+
+section {
+    margin: 0px 10px;
+    height: 290px;
+}
+
+form {
+    width: 49%;
+    height: 290px;
+    border: none;
+    display: inline-block;
+    vertical-align: top;
+}
+
+input {
+    width: 97%;
+    height: 35px;
+    font-size: 20px;
+    font-weight: 400;
+    padding-left: 5px;
+    margin-bottom: 15px;
+}
+
+select {
+    width: 97%;
+    height: 30px;
+    font-size: 22px;
+    font-weight: 400;
+    padding-left: 5px;
+}
+
+label {
+    font-size: 16px;
+    display: block;
+    margin-bottom: 3px;
+    padding-bottom: 2px;
+}
+
+span {
+    display: inline-block;
+    width: 100%;
+}
+.from{
+    padding-bottom: 30px;
+}
+.age{
+    display: inline-block;
+    width: 77px;
+    margin-right: 6px;
+}
+.age>input{
+    width: 91%;
+    height: 30px;
+}
+
+.age:last-of-type {
+    margin-right: 0px;
+}
+
+form>div>p{
+    font-size: 14px;
+    margin: 7px 5px;
+}
+input[type="checkbox"]{
+    float: left;
+    height: 15px;
+    width: 15px;
+    margin: 0px 5px;
+}
+.time-interval{
+    width: 120px;
+    margin-right: 5px;
+}
+input[type="time"]{
+    padding: 0px;
+    height: 35px;
+    width: 100%;
+    display: inline-block;
+    margin-right: 5px;
+}
+.time-interval:last-of-type{
+    margin-right: 0px;
+}
+#choose-class{
+    height: 35px;
+}
+footer>button{
+    height: 40px;
+    width: 246px;
+    float: right;
+    margin:5px 23px 0px 0px;
+    font-size: 22px;
+}

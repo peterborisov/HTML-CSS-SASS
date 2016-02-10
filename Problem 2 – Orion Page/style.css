@@ -1,0 +1,235 @@
+/* latin-ext */
+@font-face {
+    font-family: 'Oleo Script';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Oleo Script'), local('OleoScript-Regular'), url(http://fonts.gstatic.com/s/oleoscript/v5/_weQNDK6Uf40CiGFKBBUjiYE0-AqJ3nfInTTiDXDjU4.woff2) format('woff2');
+    unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
+}
+
+/* latin */
+@font-face {
+    font-family: 'Oleo Script';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Oleo Script'), local('OleoScript-Regular'), url(http://fonts.gstatic.com/s/oleoscript/v5/_weQNDK6Uf40CiGFKBBUjo4P5ICox8Kq3LLUNMylGO4.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}
+
+body {
+    background: black;
+}
+
+#wrapper {
+    width: 1200px;
+    height: 940px;
+    background: #50247D;
+    margin: 0px auto;
+    padding: 0px auto;
+}
+
+/*Header*/
+#wrapper > header {
+    width: 1000px;
+    height: 250px;
+    background: url("orion-gas-and-star-bgr.jpg");
+    background-size: cover;
+    padding: 0px auto;
+    margin: 0px auto;
+}
+
+#wrapper > header > h1 {
+    font-family: "Oleo Script";
+    font-size: 68px;
+    color: #FEFEFD;
+    margin: 0px auto;
+    text-align: center;
+    padding-top: 35px;
+    line-height: 60px;
+}
+
+#wrapper > header > p {
+    font-family: Calibri;
+    font-size: 28px;
+    color: #FEFEFD;
+    margin: 0px auto;
+    text-align: center;
+}
+
+#wrapper > header > ul {
+    padding: 40px 0px 0px 0px;
+    margin: 0px auto;
+    text-align: center;
+}
+
+#wrapper > header > ul > li {
+    margin: 0px 3px;
+    line-height: 50px;
+    background: #FEFEFD;
+    display: inline-block;
+}
+
+#wrapper > header > ul > li > a {
+    font-family: Arial;
+    font-weight: 600;
+    font-size: 18px;
+    text-decoration: none;
+    color: #5C277B;
+    padding: 0px 25px;
+}
+
+#wrapper > header > hr {
+    width: 100%;
+    height: 10px;
+    background: #36A4D8;
+    border: none;
+    margin: 19px 0px 0px 0px;
+}
+
+/*Main*/
+
+#wrapper > main {
+    width: 1000px;
+    height: 585px;
+    background: #EAE7EE;
+    margin: 0px auto;
+    margin-top: 30px;
+}
+
+#wrapper > main > hr {
+    margin: 0px auto;
+    width: 100%;
+    height: 10px;
+    background: #865AB3;
+    border: none;
+}
+
+#wrapper > main > div {
+    width: 950px;
+    height: 485px;
+    margin-top: 50px;
+    margin-left: 10px;
+}
+
+/*Left section*/
+#wrapper > main > div > section {
+    width: 442px;
+    height: 470px;
+    background: #fff;
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 30px;
+}
+
+#wrapper > main > div > section > h1 {
+    font-family: "Oleo Script";
+    font-size: 48px;
+    margin: 30px 0px 0px 30px;
+    line-height: 40px;
+}
+
+#wrapper > main > div > section > h4 {
+    font-family: Arial;
+    font-size: 26px;
+    margin: 2px 0px 0px 30px;
+}
+
+#wrapper > main > div > section > p {
+    font-family: Arial;
+    font-size: 12px;
+    margin: 20px 0px 0px 30px;
+    width: 72%;
+    height: 130px;
+}
+
+#wrapper > main > div > section > p > span {
+    font-weight: 400;
+    font-family: "Oleo Script";
+}
+
+/*Right section*/
+#wrapper > main > div > section:last-of-type {
+    background: #EAE7EE;
+}
+
+#wrapper > main > div > section > article > div {
+    width: 200px;
+    height: 150px;
+}
+
+#wrapper > main > div > section > article > div > img {
+    position: relative;
+}
+
+#wrapper > main > div > section > article > div > h4 {
+    position: absolute;
+    width: 100px;
+    height: 25px;
+    background: #36A4D5;
+    font-size: 12px;
+    font-family: Calibri;
+    margin: 0px 100px;
+    padding-top: 10px;
+    z-index: 1;
+    text-align: center;
+}
+
+#wrapper > main > div > section > article > div > h4 > a {
+    text-decoration: none;
+    color: #fff;
+}
+
+#wrapper > main > div > section > article {
+    width: 200px;
+    height: 225px;
+    display: inline-block;
+    background: #fff;
+    vertical-align: top;
+}
+
+#wrapper > main > div > section > article:first-of-type {
+    margin-right: 30px;
+    margin-bottom: 20px;
+}
+
+#wrapper > main > div > section > article:nth-of-type(3) {
+    margin-right: 30px;
+}
+
+#wrapper > main > div > section > article > h4 {
+    font-size: 12px;
+    color: #4CB3E2;
+    font-family: Calibri;
+    margin: 10px 15px;
+}
+
+#wrapper > main > div > section > article > p {
+    font-size: 12px;
+    font-family: Calibri;
+    margin: 0px 15px;
+}
+
+#wrapper > main > hr:last-of-type {
+    width: 100%;
+    height: 10px;
+    background: #36A4D8;
+    border: none;
+    margin-top: 30px;
+}
+
+/*Footer*/
+#wrapper > footer {
+    width: 1000px;
+    height: 100px;
+    margin: 0px auto;
+    padding: 0px auto;
+}
+
+#wrapper > footer > p {
+    margin: 0px 0px;
+    padding-top: 30px;
+    padding-left: 20px;
+    color: #fff;
+    font-family: Calibri;
+    font-size: 12px;
+}

@@ -1,0 +1,23 @@
+body {
+    font-family:Tahoma;
+}
+#wrapper{
+    margin: 0px auto;
+    padding: 0px auto;
+    width: 500px;
+    height: 400px;
+}
+table {
+    width: 400px;
+}
+
+section>table>tr>td {
+    padding:5px;
+    display: inline;
+    width: 200px;
+    height: 200px;
+}
+p{
+    margin: 0px 0px;
+line-height: 25px;
+}
