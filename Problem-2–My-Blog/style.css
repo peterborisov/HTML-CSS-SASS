@@ -1,0 +1,81 @@
+body{
+    background: black;
+}
+
+#wrapper{
+    width: 960px;
+    background: #fff;
+    padding: 0px auto;
+    margin: 0 auto;
+}
+/*Header*/
+#wrapper>header{
+    height: 80px;
+    width: 100%;
+    background: #F6F5E9;
+    padding: 0 auto;
+    margin: 0 auto;
+}
+#wrapper>header>ul>li{
+    display: inline-block;
+    list-style: none;
+    margin: 0px 5px;
+    padding: 30px 5px;
+}
+#wrapper>header>ul{
+    float: right;
+    padding: 0px 5px;
+    margin: 0 5px;
+}
+#wrapper>header>h2{
+    margin: 0px 20px;
+    padding: 26px 10px;
+    float: left;
+}
+
+
+/*Section*/
+#wrapper>section{
+    height: 50px;
+    background: black;
+}
+#wrapper>section>p{
+    margin: 0px 20px;
+    padding: 16px 10px;
+    float: left;
+    color: #9F9F9F;
+}
+#wrapper>section>p>a{
+    text-decoration: none;
+    color: #9F9F9F;
+}
+#wrapper>section>p>a:hover{
+   color: #fff;
+}
+#wrapper>section>input{
+    float: right;
+    padding: 3px 4px;
+    margin: 15px 15px;
+  background: black;
+    border: 1px solid #fff;
+    border-radius: 10px;
+}
+
+/*Main*/
+main>h1{
+    margin: 0px 0px;
+    padding: 10px 10px;
+}
+main>section{
+    width: 95%;
+    margin: 0px 5px;
+    padding: 0px 5px;
+    box-sizing: border-box;
+}
+main>section>p{
+    text-align: justify;
+}
+#wrapper>main{
+    margin: 0px 10px;
+    padding: 20px 10px;
+}

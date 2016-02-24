@@ -1,0 +1,120 @@
+
+@font-face {
+    font-family: ThisNight;
+    src:url("ThisNight.ttf");
+}
+@font-face {
+    font-family: Ldf;
+    src:url("LDFComicSans.ttf");
+}
+body{
+    background: black;
+}
+#wrapper{
+    width: 960px;
+    background: #fff;
+    margin: 0px auto;
+}
+#wrapper>header{
+    background: #234465;
+    text-align: center;
+    height: 100px;
+}
+#wrapper>header>h1{
+    font-family: ThisNight;
+    color: #fff;
+    font-size: 70px;
+    padding-top:20px;
+}
+#wrapper>header>h1:hover{
+    color: #FF9C00;
+    cursor: pointer;
+}
+#wrapper>main>nav>ul>li{
+    font-family: ThisNight;
+    font-size: 16px;
+    color: #234465;
+    display: inline-block;
+    list-style: none;
+    margin: 10px 12px;
+    padding-left: 0px;
+}
+#wrapper>main>nav{
+    font-size: 16px;
+    font-weight: 100;
+    height: 50px;
+    padding-left: 260px;
+}
+#wrapper>main>section>article>img{
+    width: 100%;
+    height: 100px;
+}
+
+
+#wrapper>main>section{
+    width: 540px;
+    margin: 0px;
+    padding: 0px;
+padding-left: 225px;
+    border: 1px;
+}
+#wrapper>main>section>article>h3{
+    font-family: Ldf;
+    font-size: 20px;
+    background: #234465;
+    color: #fff;
+    text-align: center;
+    text-shadow:1px;
+    height: 25px;
+    padding: 10px;
+    text-shadow: 3px 3px 2px  #C6851A;
+
+}
+#wrapper>main>section>article{
+    width: 250px;
+    box-shadow: 5px 5px 10px #45607D;
+    display: inline-block;
+    border-radius: 5px;
+    padding: 2px;
+    margin: 4px;
+    height: 255px;
+}
+#wrapper>main>section>article>p{
+    font-family: Ldf;
+    font-size: 10px;
+    padding: 0px;
+    margin: 0px;
+}
+#bottom-nav>nav{
+    background: #234465;
+    text-align: center;
+    height: 50px;
+}
+
+#bottom-nav>nav>ul>li{
+    font-family: Ldf;
+    color: #fff;
+    background: #234465;
+    display: inline-block;
+    list-style: none;
+    margin: 10px 12px;
+    padding-left: 0px;
+    font-size: 16px;
+}
+footer{
+    height: 100px;
+    background: #234465;
+    border-top: 1px solid #fff;
+}
+footer>p:first-of-type{
+    text-align: center;
+    padding-top: 15px;
+    margin: 0px;
+}
+footer>p{
+    text-align: center;
+    margin: 0px;
+    color: #fff;
+    font-family: Ldf;
+    font-size: 10px;
+}

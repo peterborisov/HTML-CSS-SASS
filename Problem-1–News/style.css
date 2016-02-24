@@ -1,0 +1,41 @@
+body{
+    background: black;
+    padding-top: 150px;
+}
+#wrapper{
+    width: 330px;
+    margin: 0 auto;
+    background: white;
+}
+#wrapper>section>img{
+    width: 129px;
+    height: 107px;
+    border: 1px solid white;
+    outline: 1px solid black;
+    float: left;
+    margin: 0px;
+}
+#wrapper>section{
+    display: inline-block;
+    margin: 5px;
+    padding-left: 0px;
+}
+#wrapper>section>article>p{
+    margin: 3px;
+    font-size: 12px;
+    padding-left: 135px;
+    font-family: Tahoma;
+}
+#wrapper>section>article>p:first-of-type{
+    font-family: Tahoma;
+    font-size: 12px;
+}
+#wrapper>section>article>p:nth-of-type(2){
+    font-family: Tahoma;
+    font-size: 10px;
+    color: #979797;
+}
+
+#wrapper>section>article{
+    margin: 3px;
+}
