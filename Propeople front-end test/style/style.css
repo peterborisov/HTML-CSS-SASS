@@ -1,0 +1,705 @@
+body, #wrapper, header, main, footer, h1, h2, h3, h4, ul, li, img, nav, a, div, p, section, article, dfn, ol {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    border: none;
+}
+
+body {
+    background: -webkit-gradient(linear, left top, left bottom, from(#000103), to(#005C8F)) fixed;
+}
+
+body #wrapper {
+    width: 74%;
+    height: auto;
+    margin: 0px auto;
+    background: #fff;
+    font-family: Arial, sans-serif;
+    font-size: 12px;
+}
+
+body #wrapper header h1 {
+    width: 360px;
+    font-family: "Copperplate Gothic", sans-serif;
+    font-size: 18px;
+    text-transform: uppercase;
+    padding-left: 40px;
+    color: #100D28;
+    vertical-align: top;
+    padding-top: 30px;
+}
+
+body #wrapper header ul {
+    float: right;
+    padding-top: 30px;
+    text-align: right;
+    vertical-align: top;
+}
+
+body #wrapper header ul li {
+    display: inline-block;
+    margin-right: 20px;
+    font-weight: bold;
+}
+
+body #wrapper header ul li a {
+    color: black;
+    margin: 0px;
+    text-align: center;
+    width: 80px;
+    height: 20px;
+}
+
+body #wrapper header ul li button {
+    width: 10px;
+    height: 12px;
+    background: #078DCC;
+    border-radius: 20px;
+    border: none;
+    float: right;
+}
+
+body #wrapper header ul li:last-of-type {
+    margin-right: 10px;
+}
+
+body #wrapper header img {
+    float: right;
+    margin-right: 20px;
+    border: 1px solid #EAEAEA;
+    border-radius: 5px 5px 0px 0px;
+    margin-top: 25px;
+}
+
+body #wrapper header a {
+    float: right;
+    clear: both;
+    width: 100px;
+    height: 30px;
+    text-decoration: none;
+    color: #34B3FA;
+    margin-right: 30px;
+}
+
+body #wrapper header nav {
+    padding-top: 10px;
+    height: 45px;
+    clear: both;
+    width: 100%;
+}
+
+body #wrapper header nav ul {
+    padding: 0px;
+    margin-right: 20px;
+    width: 100%;
+    height: 35px;
+    float: right;
+}
+
+body #wrapper header nav ul li {
+    width: auto;
+    box-shadow: 0px 0px 6px 0px rgba(83, 83, 83, 0.15);
+    border: 1px solid #EAEAEA;
+    border-bottom: none;
+    border-radius: 5px;
+    margin-right: 0px;
+    padding: 10px 14px;
+    height: 35px;
+    background: #F7F7F7;
+}
+
+body #wrapper header nav ul li a {
+    margin-right: 0px;
+    width: 100%;
+    text-align: center;
+    height: 13px;
+    color: black;
+    font-size: 12px;
+}
+
+body #wrapper header nav ul li a:hover {
+    color: #fff;
+}
+
+body #wrapper header nav ul li:hover {
+    color: #fff;
+    background: -webkit-linear-gradient(#1C86C0, #000103);
+    background: -o-linear-gradient(#1C86C0, #000103);
+    background: -moz-linear-gradient(#1C86C0, #000103);
+    background: linear-gradient(#1C86C0, #000103);
+}
+
+body #wrapper header nav ul li:last-of-type {
+    margin: 0px;
+}
+
+body #wrapper header #end-of-header {
+    width: 99%;
+    height: 45px;
+    background: -webkit-linear-gradient(#000103, #1C86C0);
+    background: -o-linear-gradient(#000103, #1C86C0);
+    background: -moz-linear-gradient(#000103, #1C86C0);
+    background: linear-gradient(#000103, #1C86C0);
+    clear: both;
+    margin: 0px auto;
+}
+
+body #wrapper header #end-of-header p {
+    color: #fff;
+    padding: 15px 0px 0px 25px;
+    width: 330px;
+    font-size: 11px;
+}
+
+body #wrapper header #end-of-header p a {
+    color: #fff;
+    width: auto;
+    height: auto;
+    margin: 0px;
+}
+
+body #wrapper header #end-of-header div {
+    float: right;
+    width: 60px;
+    height: 25px;
+    margin-top: 12px;
+    margin-right: 110px;
+}
+
+body #wrapper header #end-of-header div img {
+    border: none;
+    margin-top: 0px;
+    margin-right: 0px;
+    float: left;
+}
+
+body #wrapper header #end-of-header div p {
+    width: 30px;
+    padding: 4px 0px 0px 7px;
+    float: right;
+}
+
+body #wrapper main {
+    width: 97%;
+    height: auto;
+    padding-top: 25px;
+    margin: 0px auto;
+}
+
+body #wrapper main #top-main-section {
+    box-shadow: 0px 0px 16px 0px rgba(83, 83, 83, 0.75);
+    width: 100%;
+    height: 282px;
+    border-radius: 5px 5px 0px 0px;
+    background: -webkit-linear-gradient(left top, #000103, #31AFE1);
+    /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(bottom right, #000103, #31AFE1);
+    /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(bottom right, #000103, #31AFE1);
+    /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to bottom right, #000103, #31AFE1);
+    /* Standard syntax */
+}
+
+body #wrapper main #top-main-section img {
+    float: right;
+    padding: 2px;
+    border-radius: 0px 5px 0px 0px;
+    width: 58%;
+    height: 100%;
+}
+
+body #wrapper main #top-main-section article {
+    width: 37%;
+    height: auto;
+    padding: 10% 0px 0px 6%;
+    color: #fff;
+}
+
+body #wrapper main #top-main-section article h2 {
+    font-size: 35px;
+}
+
+body #wrapper main #top-main-section article p {
+    padding-top: 10px;
+    font-weight: bold;
+    font-size: 13px;
+}
+
+body #wrapper main #top-main-section article p a {
+    text-decoration: none;
+    color: #fff;
+}
+
+body #wrapper main #top-main-section article p button {
+    background: #0769A6;
+    border-radius: 20px;
+    border: none;
+    font-size: 8px;
+    font-weight: bolder;
+    color: #fff;
+    width: 13px;
+    height: 13px;
+    margin: 2px 5px 0px 0px;
+}
+
+body #wrapper main #top-main-section article p button:before {
+    content: "\232A";
+}
+
+body #wrapper main #after-top-section {
+    width: 100%;
+    height: 30px;
+}
+
+body #wrapper main #after-top-section ul {
+    width: 50%;
+    height: 30px;
+    float: right;
+    text-align: center;
+    padding-right: 20px;
+}
+
+body #wrapper main #after-top-section ul li {
+    width: 15px;
+    height: 15px;
+    border-radius: 20px;
+    display: inline-block;
+    border: 1px solid #31AFE1;
+    margin: 10px 0px 0px 15px;
+}
+
+body #wrapper main #after-top-section ul li:first-of-type {
+    background: -webkit-linear-gradient(-90deg, #000103, #005C8F);
+    background: -o-linear-gradient(-90deg, #000103, #005C8F);
+    background: -moz-linear-gradient(-90deg, #000103, #005C8F);
+    background: linear-gradient(-90deg, #000103, #005C8F);
+}
+
+body #wrapper main #after-top-section button {
+    width: 20px;
+    height: 20px;
+    border-radius: 20px;
+    border: none;
+    margin-top: 5px;
+}
+
+body #wrapper main #after-top-section #left {
+    float: left;
+    margin-left: 21%;
+    font-size: 17px;
+    color: #fff;
+    padding: 0px;
+    background: -webkit-linear-gradient(-90deg, #000103, #005C8F);
+    background: -o-linear-gradient(-90deg, #000103, #005C8F);
+    background: -moz-linear-gradient(-90deg, #000103, #005C8F);
+    background: linear-gradient(-90deg, #000103, #005C8F);
+}
+
+body #wrapper main #after-top-section #left:before {
+    content: '\2039';
+}
+
+body #wrapper main #after-top-section #right {
+    float: right;
+    margin-right: 21%;
+    background: #31AFE1;
+    font-size: 17px;
+    color: #fff;
+    padding: 0px;
+}
+
+body #wrapper main #after-top-section #right:before {
+    content: "\203A";
+}
+
+body #wrapper main #main-section {
+    background: -webkit-linear-gradient(#EFF1F0, #FFFFFF);
+    background: -o-linear-gradient(#EFF1F0, #FFFFFF);
+    background: -moz-linear-gradient(#EFF1F0, #FFFFFF);
+    background: linear-gradient(#EFF1F0, #FFFFFF);
+    box-shadow: 0px 0px 16px 0px rgba(83, 83, 83, 0.25);
+    width: 59%;
+    height: auto;
+    padding: 26px;
+    border: 1px solid #EAEAEA;
+    margin: 10px auto;
+    border-radius: 5px;
+}
+
+body #wrapper main #main-section h2 {
+    font-size: 25px;
+    font-weight: 100;
+    margin-bottom: 10px;
+}
+
+body #wrapper main #main-section h3 {
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+body #wrapper main #main-section p {
+    line-height: 20px;
+}
+
+body #wrapper main #main-section hr {
+    width: 100%;
+    margin: 15px 0px;
+    height: 2px;
+    background: #DEDEDE;
+    border: none;
+}
+
+body #wrapper main #main-section img {
+    margin: 30px 0px 5px 0px;
+    width: 100%;
+}
+
+body #wrapper main #main-section article {
+    vertical-align: top;
+    margin-top: 20px;
+}
+
+body #wrapper main #main-section article h4 {
+    font-weight: bold;
+}
+
+body #wrapper main #main-section article p {
+    font-size: 12px;
+}
+
+body #wrapper main #main-section article p a {
+    text-decoration: none;
+    color: #0072B1;
+}
+
+body #wrapper main #main-section article p a:nth-of-type(2) {
+    text-decoration: underline;
+}
+
+body #wrapper main #main-section article p a:last-of-type {
+    color: grey;
+}
+
+body #wrapper main #main-section article img {
+    margin: 2px 8px 46px 0px;
+    float: left;
+    width: 50%;
+}
+
+body #wrapper main #main-section article div {
+    float: right;
+    width: 250px;
+}
+
+body #wrapper main #main-section article div ol {
+    margin: 0px;
+    padding-left: 25px;
+}
+
+body #wrapper main #main-section article div ol li {
+    list-style-type: disc;
+    margin-bottom: 3px;
+}
+
+body #wrapper main #bottom-main-section {
+    margin: 25px 0px 15px 0px;
+    padding-left: 3px;
+    clear: both;
+}
+
+body #wrapper main #bottom-main-section article {
+    background: -webkit-linear-gradient(#F7F7F7, #FFFFFF);
+    background: -o-linear-gradient(#F7F7F7, #FFFFFF);
+    background: -moz-linear-gradient(#F7F7F7, #FFFFFF);
+    background: linear-gradient(#F7F7F7, #FFFFFF);
+    height: 210px;
+    border: 1px solid #EAEAEA;
+    box-shadow: 0px 0px 6px 0px rgba(83, 83, 83, 0.2);
+    display: inline-block;
+    border-radius: 5px 5px 0px 0px;
+    margin-right: 8px;
+    vertical-align: top;
+}
+
+body #wrapper main #bottom-main-section article img {
+    border-radius: 5px 5px 0px 0px;
+    width: 100%;
+}
+
+body #wrapper main #bottom-main-section article div {
+    padding: 8px 8px;
+}
+
+body #wrapper main #bottom-main-section article div h2 {
+    font-size: 16px;
+    margin-bottom: 2px;
+}
+
+body #wrapper main #bottom-main-section article div p {
+    line-height: 18px;
+}
+
+body #wrapper main #bottom-main-section article .h-ref {
+    margin-top: 5px;
+    height: 15px;
+}
+
+body #wrapper main #bottom-main-section article .h-ref button {
+    border-radius: 20px;
+    border: none;
+    background: -webkit-linear-gradient(-90deg, #000103, #005C8F);
+    background: -o-linear-gradient(-90deg, #000103, #005C8F);
+    background: -moz-linear-gradient(-90deg, #000103, #005C8F);
+    background: linear-gradient(-90deg, #000103, #005C8F);
+    margin-right: 5px;
+    font-size: 8px;
+    font-weight: bolder;
+    padding: 0px;
+    color: #fff;
+    width: 13px;
+    height: 13px;
+}
+
+body #wrapper main #bottom-main-section article .h-ref button:before {
+    content: "\232A";
+}
+
+body #wrapper main #bottom-main-section article .h-ref a {
+    text-decoration: none;
+    font-size: 10px;
+    color: #0086A9;
+}
+
+body #wrapper main #bottom-main-section article:last-of-type {
+    margin: 0px;
+}
+
+body #wrapper main #bottom-main-section .smaller {
+    width: 19%;
+}
+
+body #wrapper main #bottom-main-section .bigger {
+    width: 29%;
+}
+
+body #wrapper main #right-aside {
+    width: 19%;
+    height: auto;
+    float: right;
+}
+
+body #wrapper main #right-aside article {
+    width: 100%;
+    background: -webkit-linear-gradient(#F7F7F7, #FFFFFF);
+    background: -o-linear-gradient(#F7F7F7, #FFFFFF);
+    background: -moz-linear-gradient(#F7F7F7, #FFFFFF);
+    background: linear-gradient(#F7F7F7, #FFFFFF);
+    height: 210px;
+    border: 1px solid #EAEAEA;
+    box-shadow: 0px 0px 6px 0px rgba(83, 83, 83, 0.2);
+    display: inline-block;
+    border-radius: 5px 5px 0px 0px;
+    margin-right: 10px;
+    vertical-align: top;
+    margin-top: 10px;
+}
+
+body #wrapper main #right-aside article img {
+    border-radius: 5px 5px 0px 0px;
+    width: 100%;
+}
+
+body #wrapper main #right-aside article div {
+    padding: 0px 8px;
+}
+
+body #wrapper main #right-aside article div h2 {
+    font-size: 16px;
+    margin-bottom: 1px;
+}
+
+body #wrapper main #right-aside article div p {
+    line-height: 17px;
+}
+
+body #wrapper main #right-aside article .h-ref {
+    margin-top: 5px;
+    height: 15px;
+}
+
+body #wrapper main #right-aside article .h-ref button {
+    border-radius: 20px;
+    border: none;
+    background: -webkit-linear-gradient(-90deg, #000103, #005C8F);
+    background: -o-linear-gradient(-90deg, #000103, #005C8F);
+    background: -moz-linear-gradient(-90deg, #000103, #005C8F);
+    background: linear-gradient(-90deg, #000103, #005C8F);
+    margin-right: 5px;
+    font-size: 8px;
+    font-weight: bolder;
+    padding: 0px;
+    color: #fff;
+    width: 13px;
+    height: 13px;
+}
+
+body #wrapper main #right-aside article .h-ref button:before {
+    content: "\232A";
+}
+
+body #wrapper main #right-aside article .h-ref a {
+    text-decoration: none;
+    font-size: 10px;
+    color: #0086A9;
+}
+
+body #wrapper main #right-aside article:last-of-type {
+    margin-top: 20px;
+}
+
+body #wrapper main #right-aside form {
+    width: 100%;
+    height: auto;
+    margin-top: 30px;
+}
+
+body #wrapper main #right-aside form h2 {
+    font-size: 16px;
+    padding-left: 10px;
+    margin-bottom: 15px;
+}
+
+body #wrapper main #right-aside form label {
+    padding-left: 10px;
+}
+
+body #wrapper main #right-aside form input {
+    width: 94%;
+    border: 1px solid #EAEAEA;
+    box-shadow: 0px 0px 6px 0px rgba(83, 83, 83, 0.2);
+    border-radius: 4px 4px 4px 4px;
+    background: #FCFCFC;
+    height: 20px;
+    margin: 5px 0px 17px 0px;
+    font-size: 11px;
+    padding-left: 10px;
+}
+
+body #wrapper main #right-aside form textarea {
+    width: 93%;
+    border: 1px solid #EAEAEA;
+    box-shadow: 0px 0px 6px 0px rgba(83, 83, 83, 0.2);
+    border-radius: 4px 4px 4px 4px;
+    background: #FCFCFC;
+    height: 87px;
+    margin-top: 5px;
+    font-size: 11px;
+    padding-left: 10px;
+}
+
+body #wrapper main #right-aside form input[type="submit"] {
+    margin-top: 10px;
+    width: 125px;
+    float: right;
+    height: 30px;
+    font-size: 11px;
+    font-weight: 100;
+    color: #fff;
+    background: -webkit-linear-gradient(#1C86C0, #000103);
+    background: -o-linear-gradient(#1C86C0, #000103);
+    background: -moz-linear-gradient(#1C86C0, #000103);
+    background: linear-gradient(#1C86C0, #000103);
+}
+
+body #wrapper main #left-aside {
+    width: 19%;
+    height: 305px;
+    float: left;
+    margin-top: 10px;
+    border-radius: 5px 5px 0px 0px;
+    background: #013D5F;
+}
+
+body #wrapper main #left-aside ul {
+    width: 100%;
+    border-radius: 5px 5px 0px 0px;
+}
+
+body #wrapper main #left-aside ul li {
+    width: 100%;
+    list-style: none;
+    height: 50px;
+    border-bottom: 1px solid #065492;
+    padding: 10px;
+    color: #fff;
+    line-height: 17px;
+}
+
+body #wrapper main #left-aside ul li button {
+    font-size: 8px;
+    font-weight: bolder;
+    padding: 0px;
+    color: #fff;
+    width: 13px;
+    height: 13px;
+    border-radius: 20px;
+    border: none;
+    background: #0B63BD;
+    float: left;
+    margin: 2px 5px 0px 0px;
+    background: -webkit-linear-gradient(-90deg, #000103, #005C8F);
+    background: -o-linear-gradient(-90deg, #000103, #005C8F);
+    background: -moz-linear-gradient(-90deg, #000103, #005C8F);
+    background: linear-gradient(-90deg, #000103, #005C8F);
+}
+
+body #wrapper main #left-aside ul li button:before {
+    content: "\232A";
+}
+
+body #wrapper main #left-aside ul li p {
+    width: 89%;
+    float: right;
+}
+
+body #wrapper main #left-aside ul li:first-of-type {
+    background: -webkit-linear-gradient(#1C86C0, #013D5F);
+    background: -o-linear-gradient(#1C86C0, #013D5F);
+    background: -moz-linear-gradient(#1C86C0, #013D5F);
+    background: linear-gradient(#1C86C0, #013D5F);
+    border-radius: 5px 5px 0px 0px;
+}
+
+body #wrapper main #left-aside ul li:last-of-type {
+    background: #0072B1;
+    height: 70px;
+}
+
+body #wrapper main #left-aside ul li:last-of-type p:last-of-type {
+    margin-top: 10px;
+}
+
+body #wrapper main #left-aside ul li:last-of-type button:before {
+    content: '\25bc';
+}
+
+body #wrapper footer {
+    height: 45px;
+    width: 100%;
+    background: transparent;
+    font-size: 10px;
+    font-weight: bold;
+    background: #005C8F;
+}
+
+body #wrapper footer ol {
+    text-align: center;
+    padding: 0px;
+}
+
+body #wrapper footer ol li {
+    display: inline-block;
+    color: #76ABCB;
+    list-style-type: disc;
+}
